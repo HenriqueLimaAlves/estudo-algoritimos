@@ -1,10 +1,10 @@
-package projeto.pessoal.estudo_algoritimos;
+package projeto.pessoal.estudo_algoritimos.algoritimos.buscaBinaria;
 
 import java.util.List;
 
 public class BuscaBinaria {
     /*Com a pesquisa binária você chuta um número intermediário e elimina a metade dos números restantes de cada vez.
-    Você só consegue aplicar esse algoritimo se a lista for ordenada. */
+    Você só consegue aplicar esse algoritimo se a lista for ordenada. Performance em O(log n) */
     public Integer buscaNumeroTentativas(List<String> numeros, int target){
 
         int esquerda = 0; // inicio

@@ -1,6 +1,7 @@
 package projeto.pessoal.estudo_algoritimos;
 
 import org.junit.jupiter.api.Test;
+import projeto.pessoal.estudo_algoritimos.algoritimos.buscaBinaria.BuscaBinaria;
 
 import java.util.List;
 import java.util.stream.Collectors;
